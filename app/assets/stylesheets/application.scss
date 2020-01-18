@@ -1,0 +1,28 @@
+@import "bootstrap";
+
+// ログイン画面
+
+header{
+  background-color: #eee;
+}
+
+.container-login {
+  @extend .container-fluid;
+  max-width: 40%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  // padding: rem;
+  // background-color: #eee;
+
+ 
+}
+
+// 「ログインしました」などのフラッシュ用スタイル
+
+.alert-notice {
+  @extend .alert-info;
+}
+
+.alert-alert {
+  @extend .alert-danger;
+}
